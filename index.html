@@ -5,64 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Untitled-1.css">
+    <link rel="stylesheet" href="police.css">
 </head>
 <body>
         <Header>
             <figure>
-                <img src="./image/IMG20231105164249.jpg" alt="photo de profil">
+                <a  id="photodeprofil"href="./image/IMG20231105164249.jpg">  <img class="photo" src="./image/IMG20231105164249.jpg" alt="photo de profil"></a>
+               
                 <h1> Jeannot loic</h1>
                 <h2>developeur web junior</h2>
             </figure>
-
-        <nav>
-
-                <address>
-                    <a href="https://www.google.fr/maps/place/1+Rue+des+Glycines,+55000+Bar-le-Duc/@48.7703379,5.1778319,17z/data=!3m1!4b1!4m6!3m5!1s0x47eb707c4920eee7:0x22dc960738cb4aca!8m2!3d48.7703344!4d5.1804068!16s%2Fg%2F11s9dpq1pq?entry=ttu">
+            <address id="adresse1">
+                    <a class="lien1" href="https://www.google.fr/maps/place/1+Rue+des+Glycines,+55000+Bar-le-Duc/@48.7703379,5.1778319,17z/data=!3m1!4b1!4m6!3m5!1s0x47eb707c4920eee7:0x22dc960738cb4aca!8m2!3d48.7703344!4d5.1804068!16s%2Fg%2F11s9dpq1pq?entry=ttu">
             1 rue des glycines 55000 Bar le duc
         </a>
-        <a href="mailto:jeannotloic55@laposte.net">jeannotloic55@laposte.net</a>
-        <a href="tel:+0606060606">0606060606</a>
-        </address>
-    </nav>
+        <a class="lien1" href="mailto:jeannotloic55@laposte.net">jeannotloic55@laposte.net</a>
+        <a class="lien1" href="tel:+0606060606">0606060606</a>
+    </address>
     </Header>
     <main>
         <section class="bloc1">
             <div>
                 <h1> A propos</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer metus ipsum, lacinia vel lacus sit amet, tempus fermentum ipsum. Donec in molestie ante. Vestibulum ut lobortis quam. Nunc ut sapien id lectus suscipit porta nec eu nulla. Fusce ac turpis pretium, blandit felis fringilla, finibus dolor. Quisque malesuada elementum viverra. Cras rutrum felis eget laoreet interdum. Etiam interdum nisl sit amet luctus accumsan. Integer id porttitor magna. 
+            <p id="propos">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer metus ipsum, lacinia vel lacus sit amet, tempus fermentum ipsum. Donec in molestie ante. Vestibulum ut lobortis quam. Nunc ut sapien id lectus suscipit porta nec eu nulla. Fusce ac turpis pretium, blandit felis fringilla, finibus dolor. Quisque malesuada elementum viverra. Cras rutrum felis eget laoreet interdum. Etiam interdum nisl sit amet luctus accumsan. Integer id porttitor magna. 
                 Phasellus rhoncus tellus lectus. Donec semper, sapien vitae commodo volutpat, orci elit dapibus tellus, quis sollicitudin Lorem diam id lectus. Donec nec enim mauris. Maecenas in erat sapien. Nam congue metus accumsan, vulputate ligula in, elementum Lorem.
             </p>
             </div>
             <div>
                 <h1> langues parlée</h1>
-                <ul>
-                    <li> Français</li>
-                    <li> Anglais</li>
-                    <li> Allemand</li>
+                <ul id="liste">
+                    <li class="exemple"> Français</li>
+                    <li class="exemple"> Anglais</li>
+                    <li class="exemple"> Allemand</li>
                 </ul>
             </div>
             <div>
                 <h1> centres d'interêt</h1>
-                <ul>
-                    <li>Bricolage</li>
-                    <li>le cinéma</li>
-                    <li>les animaux</li>
+                <ul id="liste">
+                    <li class="exemple">Bricolage</li>
+                    <li class="exemple">le cinéma</li>
+                    <li class="exemple">les animaux</li>
                 </ul>
             </div>
         </section>
         <section class="bloc2">
             <div>
-                <h1> expériences professionnelles</h1>
+                <h1> Expériences professionnelles</h1>
                 <ul> 
-                    <h2>Ouvrier polyvalent fromager à la fromagerie de Raival</h2>
-                    <li></li>
-
+                    <strong id="liste">Ouvrier polyvalent fromager à la fromagerie de Raival </strong><br>
+                    du 27/11/2015 jusqu'au 24/11/2023
+                    <li class="exemple"> Nettoyage salle fabrication et zonning</li>
+                    <li class="exemple">moulage manuel et automatique de fromage type brie de meaux et btc</li>
                 </ul>
-
+                <ul id="liste">
+                <strong>Agent de sécurité pour l'agence sécuritas de schiltigheim</strong><br>
+                du 30/03/2012 jusqu'au 15/12/2014
+                <li class="exemple"> Surveillance de site et de commerce</li>
+                <li class="exemple">savoir et manipulation de matériel de surveillance et d'incendie</li>
+            </ul>
+            <ul >
+                <strong id="liste">manoeuvre polyvalent au coliposte de Bar le Bar-le-Duc</strong><br>
+                du 15/01/2011 jusqu'au 30/12/2011
+                <li class="exemple">Chargement et déchargement de camions</li>
+                <li class="exemple">Utilistion d'engins de manutention tel chariot élévateur</li>
+            </ul>
+            </div>
+            <div>
+                <h1>Diplomes/Formations</h1>
+                <p ><strong id="diplomes">Bac pro logistique</strong><br>
+                obtenu en 2008 <br>
+                Lycée Jean Macé de Fameck</p>
+                <p ><strong id="diplomes">Bep logistique et commerce</strong><br>
+                obtenu en 2006 <br>
+                Lycée Jean Macé Fameck</p>
+            </div>
+            <div>
+                <h1>Compétences</h1>
+                <ul>
+                    <li class="exemple">html 5: intermédiaire</li>
+                    <li class="exemple">css 3: débutant</li>
+                    <li class="exemple">Github: débutant</li>
+                    <li class="exemple">...</li>
+                </ul>
             </div>
         </section>
     </main>
-
-    
 </body>
+<footer>
+    <address id="adresse2">
+    <a  class="lien2" href="http://facebook.com"><img class="logo" src="./image/facebook.png" alt="https//:facebook.com"></a>
+    <a class="lien2" href="http://Github.com"><img class="logo" src="./image/4926624.png" alt="Github"></a>
+    <a class="lien2" href="http://discord.com"> <img class="logo" src="image/5968898.png" alt="discord"></a>
+    </address>
+    
+    <p id="copyright"><strong >Copyright 27/11/2023</strong></p>
+</footer>
 </html>
